@@ -1,5 +1,7 @@
 # JsonAutoRepair
 
+[![](https://jitpack.io/v/godwinjk/JsonAutoRepair.svg)](https://jitpack.io/#godwinjk/JsonAutoRepair)
+
 A zero-dependency Kotlin/JVM library that automatically repairs malformed JSON strings.
 
 Feed it broken JSON — missing braces, trailing commas, single quotes, unquoted keys, comments, multiline issues — and get valid JSON back.
@@ -16,7 +18,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.godwin:json-auto-repair:v1.0.0")
+    implementation("com.github.godwinjk:json-auto-repair:v1.0.0")
 }
 ```
 
@@ -28,7 +30,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.godwin:json-auto-repair:v1.0.0'
+    implementation 'com.github.godwinjk:json-auto-repair:v1.0.0'
 }
 ```
 
