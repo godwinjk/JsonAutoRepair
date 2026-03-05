@@ -4,7 +4,7 @@ plugins {
     `maven-publish`
 }
 
-group = "com.github.godwin"
+group = "com.github.godwinjk"
 version = "1.0.0"
 
 repositories {
