@@ -12,6 +12,8 @@ repositories {
 }
 
 dependencies {
+    implementation(kotlin("stdlib"))
+
     testImplementation(kotlin("test"))
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
 }
@@ -32,7 +34,7 @@ java {
 tasks.jar {
     manifest {
         attributes(
-            "Implementation-Title" to "json-auto-repair",
+            "Implementation-Title" to "JsonAutoRepair",
             "Implementation-Version" to project.version,
             "Implementation-Vendor" to "godwin"
         )
@@ -44,7 +46,7 @@ publishing {
     publications {
         create<MavenPublication>("mavenJava") {
             from(components["java"])
-            artifactId = "json-auto-repair"
+            artifactId = "JsonAutoRepair"
         }
     }
 }

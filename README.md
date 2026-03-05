@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.godwinjk:json-auto-repair:v1.0.0")
+    implementation("com.github.godwinjk:JsonAutoRepair:v1.0.0")
 }
 ```
 
@@ -30,7 +30,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.godwinjk:json-auto-repair:v1.0.0'
+    implementation 'com.github.godwinjk:JsonAutoRepair:v1.0.0'
 }
 ```
 
@@ -44,8 +44,8 @@ dependencies {
 </repositories>
 
 <dependency>
-    <groupId>com.github.godwin</groupId>
-    <artifactId>json-auto-repair</artifactId>
+    <groupId>com.github.godwinjk</groupId>
+    <artifactId>JsonAutoRepair</artifactId>
     <version>v1.0.0</version>
 </dependency>
 ```
