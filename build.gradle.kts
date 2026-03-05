@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.github.godwinjk"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -41,11 +41,12 @@ tasks.jar {
     }
 }
 
-// JitPack uses this to publish automatically
+// **Key fix for JitPack**
 publishing {
     publications {
         create<MavenPublication>("mavenJava") {
-            from(components["java"])
+            // Use the correct component
+            from(components["kotlin"])
             artifactId = "JsonAutoRepair"
         }
     }
