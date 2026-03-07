@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "kotlin",
+      "request": "launch",
+      "name": "Run All Tests",
+      "projectName": "json-auto-repair",
+      "mainClass": "",
+      "preLaunchTask": "gradle: test"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "gradle: test",
+      "type": "shell",
+      "command": "./gradlew test",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "gradle: build",
+      "type": "shell",
+      "command": "./gradlew build",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

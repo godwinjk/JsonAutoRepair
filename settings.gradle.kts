@@ -1,1 +1,1 @@
-rootProject.name = "json-auto-repair"
+rootProject.name = "JsonAutoRepair"
